@@ -50,7 +50,7 @@ class AppDesign extends Component {
 <li>Fully customizable layout and style</li>
 <li>Drag and drop builder</li>
 <li>Fast and secure servers</li>
-<li>As little as <span style="text-decoration: underline; color: #f92500;"><strong>$99 per month</strong></span></li>
+<li>As little as <span><strong>$99 per month</strong></span></li>
 <li>Both iOS (Apple) and Android platforms</li>
 <li>Advanced functions available</li>
 <li>Professional UI/UX design availableItem</li>
