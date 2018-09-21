@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 //import devIcon from '../../images/Development.png';
-import { ServicesDiv } from '../../theme/Grid';
+import { ServicesDiv, FirstHalf, SecondHalf } from '../../theme/Grid';
 import  { Title, AboutDesc, ServicesTitle, ServicesText } from '../../theme/Type';
 
 class AppDesign extends Component {
@@ -12,7 +12,7 @@ class AppDesign extends Component {
         <Title>MOBILE APPLICATION DEVELOPMENT</Title>
 
 <AboutDesc>BRING YOUR BUSINESS TO THE NEXT LEVEL WITH YOUR OWN BRANDED MOBILE APPLICATION WITHOUT BREAKING THE BANK.</AboutDesc>
-
+<FirstHalf>
 <ServicesTitle>For as little as 99.00 per month</ServicesTitle>
         <ServicesText>
         You can have your own mobile application available on both – iOS (Apple) and Android app markets and stores. You have full control over its look and feel – make your application completely yours, branded and fully customized with tools that are easy to use. Get the functionality you need from your mobile application and utilize full back-end access to edit your content and media as you wish. This new mobile application builder can be considered “the WordPress of mobile applications” – a content management system (CMS) for mobile applications. Within days, after being approved by the respective stores – you can have a published application on the market!
@@ -41,6 +41,11 @@ class AppDesign extends Component {
         <ServicesText>
         Inquire today and get a free quote for your mobile application.
         </ServicesText>
+</FirstHalf>
+
+<SecondHalf>
+</SecondHalf>
+
 
       </ServicesDiv>
 

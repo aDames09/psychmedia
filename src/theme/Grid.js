@@ -89,3 +89,13 @@ export const OverviewText = styled.div`
     width:100%;
     padding: 1.5em 0 0;
 `;
+
+export const FirstHalf = styled.div`
+    width:50%;
+    padding: 1.5em 0 0;
+`;
+
+export const SecondHalf = styled.div`
+    width:50%;
+    padding: 1.5em 0 0;
+`;
