@@ -188,6 +188,11 @@ background: #454545;
     padding-right: 0 !important;
     padding-left: 0 !important;
   }
+  .row {
+      display: block;
+      margin-right: 0;
+      margin-left: 0;
+  }
 }
 
 /*
