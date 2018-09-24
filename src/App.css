@@ -171,6 +171,11 @@ background: #454545;
   .App-logo {
     height: 60px;
   }
+
+  .col {
+    -ms-flex-preferred-size: 0;
+    flex-basis: unset;
+  }
 }
 
 /*
