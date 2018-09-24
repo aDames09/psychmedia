@@ -52,6 +52,7 @@ class App extends Component {
         });
     }
 
+
     toggle() {
         this.setState({
             dropdownOpen: !this.state.dropdownOpen
@@ -75,16 +76,16 @@ class App extends Component {
         <UpdateBlocker>
 
         <NavItem active>
-                             <NavLink to="/">Home</NavLink>
+                             <NavLink onClick = { this.onClick } to="/">Home</NavLink>
                          </NavItem>
                          <NavItem>
-                             <NavLink isOpen = { this.state.collapse } to="/about">About</NavLink>
+                             <NavLink onClick = { this.onClick } to="/about">About</NavLink>
                          </NavItem>
                          <NavItem>
-                             <NavLink to="/portfolio">Portfolio</NavLink>
+                             <NavLink onClick = { this.onClick } to="/portfolio">Portfolio</NavLink>
                          </NavItem>
                          <NavItem>
-                             <NavLink to="/services">Services</NavLink>
+                             <NavLink onClick = { this.onClick } to="/services">Services</NavLink>
                          </NavItem>
                          </UpdateBlocker>
                          </NavbarNav>
