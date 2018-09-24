@@ -92,10 +92,12 @@ export const OverviewText = styled.div`
 
 export const FirstHalf = styled.div`
     width:50%;
-    padding: 1.5em 0 0;
+    display: inline-block;
+    padding: 1.5em 1.5em 0 0;
 `;
 
 export const SecondHalf = styled.div`
     width:50%;
-    padding: 1.5em 0 0;
+    display: inline-block;
+    padding: 1.5em 0 0 1.5em;
 `;

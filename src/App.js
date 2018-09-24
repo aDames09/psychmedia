@@ -78,7 +78,7 @@ class App extends Component {
                              <NavLink to="/">Home</NavLink>
                          </NavItem>
                          <NavItem>
-                             <NavLink to="/about">About</NavLink>
+                             <NavLink isOpen = { this.state.collapse } to="/about">About</NavLink>
                          </NavItem>
                          <NavItem>
                              <NavLink to="/portfolio">Portfolio</NavLink>
