@@ -33,6 +33,7 @@ export const ServicesDiv = styled.div`
 
 export const FullWrapper = styled.div`
     width:100%;
+    padding:25px;
 `;
 
 export const ProcessDiv = styled.div`
@@ -55,6 +56,8 @@ export const HomeContainer = styled.div`
     margin: 0 auto;
     width:100%;
     max-width:1280px;
+    padding:25px;
+
 `;
 
 export const PortfolioItem = styled.div`
@@ -94,10 +97,16 @@ export const FirstHalf = styled.div`
     width:50%;
     display: inline-block;
     padding: 1.5em 1.5em 0 0;
+    @media (max-width: 620px) {
+        width:100%;
+    }
 `;
 
 export const SecondHalf = styled.div`
     width:50%;
     display: inline-block;
     padding: 1.5em 0 0 1.5em;
+    @media (max-width: 620px) {
+        width:100%;
+    }
 `;
