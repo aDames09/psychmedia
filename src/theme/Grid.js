@@ -29,12 +29,17 @@ export const AboutDiv = styled.div`
 export const ServicesDiv = styled.div`
     width:100%;
     padding: 0, 1.5em, 1.5em, 1.5em;
+    @media (max-width: 1024px) {
+      padding:25px;
+    }
 `;
 
 export const FullWrapper = styled.div`
     width:100%;
-    padding:25px;
-`;
+    @media (max-width: 1024px) {
+      padding:25px;
+    }
+    `;
 
 export const ProcessDiv = styled.div`
     margin: 0 auto;
@@ -56,7 +61,9 @@ export const HomeContainer = styled.div`
     margin: 0 auto;
     width:100%;
     max-width:1280px;
-    padding:25px;
+    @media (max-width: 1024px) {
+      padding:25px;
+    }
 
 `;
 
