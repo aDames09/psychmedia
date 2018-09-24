@@ -176,6 +176,10 @@ background: #454545;
     -ms-flex-preferred-size: 0;
     flex-basis: unset;
   }
+  .navbar {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
 }
 
 /*
