@@ -14,6 +14,14 @@
 .AboutIcons {
   height: 160px;
 }
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 /*
 .App-header {
   background-color: #F2F2F4;
