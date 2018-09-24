@@ -167,6 +167,11 @@ footer.page-footer {
 background: #454545;
 }
 
+@media (max-width: 600px) {
+  .App-logo {
+    height: 60px;
+  }
+}
 
 /*
  * The Typekit service used to deliver this font or fonts for use on websites
