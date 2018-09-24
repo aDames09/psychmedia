@@ -4,7 +4,9 @@ export const ProjectTitle = styled.h3`
 font-size: 3em;
 font-family: "museo-slab";
 text-align:left;
-
+@media (max-width: 620px) {
+  font-size: 2.3em;
+}
 `;
 
 export const Title = styled.h1`
@@ -19,6 +21,9 @@ text-transform: uppercase;
   width:75px;
   margin: 0 auto;
 }
+@media (max-width: 620px) {
+  font-size: 2.3em;
+}
 `;
 
 export const Subtitle = styled.h3`
@@ -31,6 +36,9 @@ font-family: "museo-slab";
   border-bottom: 1px solid #ae193e;
   width:75px;
   margin: 0 auto;
+}
+@media (max-width: 620px) {
+  font-size: 1.9em;
 }
 `;
 
