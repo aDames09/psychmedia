@@ -30,8 +30,8 @@
     "video-react": "^0.11.2"
   },
   "scripts": {
-    "start": "node ./dist/server",
-    "build": "webpack",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
