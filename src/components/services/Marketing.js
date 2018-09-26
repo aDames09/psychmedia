@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
 //import devIcon from '../../images/Development.png';
-import { ServicesDiv } from '../../theme/Grid';
-import  { Title, AboutDesc, ServicesTitle, ServicesText } from '../../theme/Type';
+import { ServicesDiv, ServicesItems, ServicesItem } from '../../theme/Grid';
+import  { Title, AboutDesc, ServicesTitle, ServicesText, ServicesItemTitle } from '../../theme/Type';
 
 class Marketing extends Component {
 	render() {
