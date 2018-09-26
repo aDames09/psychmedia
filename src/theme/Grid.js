@@ -28,7 +28,7 @@ export const AboutDiv = styled.div`
 
 export const ServicesDiv = styled.div`
     width:100%;
-    padding: 0, 1.5em, 1.5em, 1.5em;
+    padding: 0, 1.5em, 2em, 1.5em;
     @media (max-width: 1024px) {
       padding:25px;
     }
@@ -112,8 +112,22 @@ export const FirstHalf = styled.div`
 export const SecondHalf = styled.div`
     width:50%;
     display: inline-block;
-    padding: 1.5em 0 0 1.5em;
+    padding: 1em 0 0 1.5em;
     @media (max-width: 620px) {
         width:100%;
     }
+`;
+
+export const ServicesItem = styled.div`
+    width:50%;
+    display: inline-block;
+    padding: .5em 1.5em 0 0;
+    @media (max-width: 620px) {
+        width:100%;
+    }
+`;
+
+export const ServicesItems = styled.div`
+    width:100%;
+    padding: .5em 0 1em 0;
 `;

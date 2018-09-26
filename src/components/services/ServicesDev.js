@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 
 //import devIcon from '../../images/Development.png';
 import devIcon from '../../images/Bantam-Media-Template.png';
-import { ServicesDiv } from '../../theme/Grid';
+import { ServicesDiv, ServicesItems, ServicesItem } from '../../theme/Grid';
 import { Button } from 'mdbreact';
-import  { ServicesTitle, ServicesSubtitle, ServicesText } from '../../theme/Type';
+import  { ServicesTitle, ServicesSubtitle, ServicesText, ServicesItemTitle } from '../../theme/Type';
 import { Link } from 'react-router-dom';
 
 class ServicesDev extends Component {
@@ -21,17 +21,69 @@ class ServicesDev extends Component {
         your website trac and aligning your outreach campaigns with a consistent and targeted brand image.
         </ServicesText>
         <ServicesSubtitle>Website Development</ServicesSubtitle>
-        <ServicesText>
-        Webtwo ipsum jabber joyent convore zoosk zillow plaxo, waze xobni balihoo doostang, sclipo heroku wikia cotweet. Napster
-        skype divvyshot wikia, stypi jibjab zapier joyent, lijit sclipo. Zappos blyve hipmunk kippt wufoo palantir, koofers dogster lijit.
-        Zanga wufoo chegg chartly, imvu twitter. Rovio ifttt xobni oovoo, ideeli imeem.
-        </ServicesText>
+        <ServicesItems>
+					<ServicesItem>
+						<ServicesItemTitle>
+							ECOMMERCE WEBSITES
+						</ServicesItemTitle>
+						<ServicesText>
+							Several options and platforms for your online store.
+						</ServicesText>
+					</ServicesItem>
+					<ServicesItem>
+						<ServicesItemTitle>
+							MOBILE APPLICATIONS
+						</ServicesItemTitle>
+						<ServicesText>
+							Create your own app – with or without our design.
+						</ServicesText>
+					</ServicesItem>
+					<ServicesItem>
+						<ServicesItemTitle>
+							EMAIL CODING
+						</ServicesItemTitle>
+						<ServicesText>
+							Make email designs a reality on your select platform.
+						</ServicesText>
+					</ServicesItem>
+					<ServicesItem>
+						<ServicesItemTitle>
+							CONVERSION TRACKING
+						</ServicesItemTitle>
+						<ServicesText>
+							Collect the right data to create an optimal strategy.
+						</ServicesText>
+					</ServicesItem>
+        </ServicesItems>
         <ServicesSubtitle>Maintenance and Security</ServicesSubtitle>
-        <ServicesText>
-        Webtwo ipsum jabber joyent convore zoosk zillow plaxo, waze xobni balihoo doostang, sclipo heroku wikia cotweet. Napster
-        skype divvyshot wikia, stypi jibjab zapier joyent, lijit sclipo. Zappos blyve hipmunk kippt wufoo palantir, koofers dogster lijit.
-        Zanga wufoo chegg chartly, imvu twitter. Rovio ifttt xobni oovoo, ideeli imeem.
-        </ServicesText>
+				<ServicesItems>
+					<ServicesItem>
+						<ServicesItemTitle>
+							MONTHLY MAINTENANCE
+						</ServicesItemTitle>
+						<ServicesText>
+							Keep up with updates so your website doesn’t go down.
+						</ServicesText>
+					</ServicesItem>
+					<ServicesItem>
+						<ServicesItemTitle>
+							WEBSITE REPAIR
+						</ServicesItemTitle>
+						<ServicesText>
+							Get your website back in working order, fast.
+						</ServicesText>
+					</ServicesItem>
+					<ServicesItem>
+						<ServicesItemTitle>
+							WEBSITE SECURITY
+						</ServicesItemTitle>
+						<ServicesText>
+							Secure your website and monitor malicious activity.
+						</ServicesText>
+					</ServicesItem>
+					<ServicesItem>
+					</ServicesItem>
+        </ServicesItems>
         </div>
         <div className="col-6 col-md-4">
           <img src={devIcon} className="servicesImg" alt="Psych Media"/>

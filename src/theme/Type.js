@@ -94,20 +94,29 @@ text-align:left;
 // Services
 
 export const ServicesTitle = styled.h5`
-font-size: 1.5em;
+font-size: 1.75em;
 text-align:left;
 font-family: "museo-slab";
 `;
 
 export const ServicesSubtitle = styled.h5`
-font-size: 1.5em;
+font-size: 1.3em;
+font-weight:500;
 text-align:left;
-font-family: "museo-slab";
+font-family: "museo-sans-rounded";
+margin-top:.5em;
 `;
 
 export const ServicesText = styled.p`
 text-align:left;
 font-size: 1.2em;
+`;
+
+export const ServicesItemTitle = styled.h5`
+font-size: 1.15em;
+font-weight:500;
+text-align:left;
+font-family: "museo-slab";
 `;
 
 
